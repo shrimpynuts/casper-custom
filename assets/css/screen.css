@@ -550,6 +550,10 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     word-break: break-word;
 }
 
+.post-card:hover {
+    opacity: 0.8;
+}
+
 .post-card-image-link {
     position: relative;
     display: block;
