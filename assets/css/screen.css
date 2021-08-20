@@ -1672,7 +1672,7 @@ Ghost editor. */
 .site-footer {
     position: relative;
     margin: 40px 0 0 0;
-    padding: 40px 4vmin 140px;
+    padding: 40px 4vmin;
     color: #fff;
     background: color-mod(var(--color-darkgrey) l(-5%));
 }
