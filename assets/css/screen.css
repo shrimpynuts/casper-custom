@@ -520,9 +520,11 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 
 .post-feed {
     position: relative;
-    display: grid;
+    /* display: grid;
     grid-gap: 4vmin;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    flex-direction: column;
     padding: 4vmin 0;
 }
 
@@ -540,10 +542,10 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 
 .post-card {
     position: relative;
-    flex: 1 1 301px;
+    /* flex: 1 1 301px; */
     display: flex;
     flex-direction: column;
-    min-height: 220px;
+    min-height: 200px;
     background-size: cover;
     word-break: break-word;
 }
