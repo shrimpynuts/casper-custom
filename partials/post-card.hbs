@@ -7,11 +7,13 @@ which templates loop over to generate a list of posts. --}}
 
         <a class="post-card-content-link" href="{{url}}">
             <header class="post-card-header">
-                {{#if primary_tag}}
-                    {{#primary_tag}}
-                    <div class="post-card-primary-tag">{{name}}</div>
-                    {{/primary_tag}}
-                {{/if}}
+                <div class="post-card-tags">
+                    {{#if tags}}
+                        {{#foreach tags}}
+                            <span class="post-card-primary-tag">{{name}}</span>
+                        {{/foreach}}
+                    {{/if}}
+                </div>
                 <h2 class="post-card-title">{{title}}</h2>
             </header>
             <div class="post-card-byline-date"><time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time> <span class="bull">|</span> {{reading_time}}</div>
