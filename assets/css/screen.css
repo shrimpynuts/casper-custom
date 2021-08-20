@@ -507,12 +507,12 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     background: var(--ghost-accent-color);
 }
 
-.home-template .gh-head-logo {
+/* .home-template .gh-head-logo {
     display: none;
-}
-.home-template .gh-head-menu {
+} */
+/* .home-template .gh-head-menu {
     margin-left: -2.5vmin;
-}
+} */
 
 
 /* 6. Post Feed
