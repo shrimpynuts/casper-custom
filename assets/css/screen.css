@@ -557,7 +557,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     /* flex: 1 1 301px; */
     display: flex;
     flex-direction: column;
-    min-height: 200px;
+    min-height: 140px;
     background-size: cover;
     word-break: break-word;
 }
@@ -712,6 +712,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 .post-card-byline-date {
     font-size: 1.3rem;
     line-height: 1.5em;
+    margin: 0 0 .4em;
 }
 
 .post-card-byline-date .bull {
