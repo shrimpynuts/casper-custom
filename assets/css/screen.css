@@ -829,6 +829,10 @@ make sure this only happens on large viewports / desktop-ish devices.
     word-break: break-word;
 }
 
+.page {
+    padding: 4vmin 0;
+}
+
 .article-header {
     padding: 0 0 6vmin 0;
 }
