@@ -503,9 +503,9 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
     background: transparent;
 }
 
-.home-template.gh-head-open .gh-head {
+/* .home-template.gh-head-open .gh-head {
     background: var(--ghost-accent-color);
-}
+} */
 
 /* .home-template .gh-head-logo {
     display: none;
