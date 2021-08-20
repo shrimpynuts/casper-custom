@@ -6,7 +6,7 @@ This is Ghost theme with slight variations on the default Casper theme.
 Roadmap:
 
 - [x] Split home article feeds with featured / thoughts
-- [ ] Disqus comment integration
+- [x] Disqus comment integration
 - [ ] Archive page
 - [ ] Remove footer
 - [ ] Make header light themed
