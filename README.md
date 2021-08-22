@@ -7,9 +7,9 @@ Roadmap:
 
 - [x] Split home article feeds with featured / thoughts
 - [x] Disqus comment integration
-- [ ] Archive page
-- [ ] Remove footer
-- [ ] Make header light themed
+- [x] Archive page
+- [x] Remove footer
+- [x] Make header light themed
 
 
 **The main files are:**
