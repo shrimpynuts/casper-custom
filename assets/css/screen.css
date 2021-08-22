@@ -564,8 +564,8 @@ ul.post-archive{margin-left:0!important;line-height:2 !important;}
 }
 
 @media (min-width: 500px) {
-    .site-main-feeds > * {
-        margin: 0px 20px;
+    .post-feed-featured {
+        margin-right: 20px;
     }
 }
 
@@ -847,6 +847,9 @@ make sure this only happens on large viewports / desktop-ish devices.
 
     .site-main-feeds {
         flex-direction: column;
+    }
+    .post-feed-featured {
+        margin-right: 0px;
     }
 }
 
