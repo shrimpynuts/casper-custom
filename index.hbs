@@ -31,7 +31,7 @@ into the {body} of the default.hbs template --}}
     <div class="inner posts">
         <div class="site-main-feeds">
             <div class="post-feed">
-                {{!-- <p>Featured posts.<br/></p>  --}}
+                <p style="padding-bottom: 10px;">Featured posts. The rest of the posts live in archive.</p> 
                 {{#foreach posts as |post|}}
                     {{#post}}
                         {{#if featured}}
@@ -41,7 +41,7 @@ into the {body} of the default.hbs template --}}
                 {{/foreach}}
             </div>
             <div class="post-feed post-feed-thoughts">
-                {{!-- <p>Quick thoughts.<br/></p>  --}}
+                <p style="padding-bottom: 10px;">Quick thoughts. Too short for an article, too long for a tweet.</p> 
                 {{#foreach posts}}
                     {{#has tag="thoughts"}}
                         {{> "post-card"}}
