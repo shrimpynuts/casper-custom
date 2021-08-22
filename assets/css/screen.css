@@ -515,6 +515,34 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 } */
 
 
+/* ====================== template: Post Archive ====================== 2019.05.28 */
+.post-archive {
+    padding: 0px;
+}
+ul.post-archive{margin-left:0!important;line-height:2 !important;}
+.post-archive-item{
+	display:flex;
+	justify-content: start;
+	align-items: normal;
+	flex-wrap: nowrap;
+	line-height:2 !important;
+}
+.post-archive-item .date{
+	margin-right:.75rem;
+}
+.post-archive-item a{
+	border-bottom:0 !important;
+}
+.post-archive-item .authors,.post-archive-item .authors a{
+	color:#888;
+	font-size:.9rem;
+}
+.post-archive .post-archive-item time{
+	white-space: nowrap;
+	width:75px;
+}
+
+
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
 
