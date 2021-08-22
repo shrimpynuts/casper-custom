@@ -160,7 +160,7 @@ production stylesheet in assets/built/screen.css
     font-size: 2.5rem;
     font-weight: 400;
     color: #fff;
-    background: var(--ghost-accent-color);
+    background: #fff;
 }
 
 
