@@ -492,7 +492,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 }
 
 .home-template .gh-head {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     left: 0;
