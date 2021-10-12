@@ -3,6 +3,20 @@
 This is Ghost theme with slight variations on the default Casper theme.
 
 
+## Local development
+
+Go to ghost local directory and run `ghost start`.
+
+Then go to this package, and run `yarn dev`.
+
+Now, updates will be hot-loaded, and if the file alias is setup correctly, the ghost instance should update on every reload.
+
+
+## Compile
+
+Run `yarn zip`, and take the zip file and upload to ghost dashboard.
+
+
 Roadmap:
 
 - [x] Split home article feeds with featured / thoughts
