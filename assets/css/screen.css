@@ -831,12 +831,12 @@ make sure this only happens on large viewports / desktop-ish devices.
 /* ---------------------------------------------------------- */
 
 .article {
-    padding: 8vmin 0;
+    /* padding: 8vmin 0; */
     word-break: break-word;
 }
 
 .page {
-    padding: 4vmin 0;
+    /* padding: 4vmin 0; */
 }
 
 .article-header {
@@ -900,7 +900,7 @@ is laid out on top of. Canvas just defines the grid, we don't
 use it for applying any other styles. */
 
 .gh-canvas {
-    display: grid;
+    /* display: grid; */
     grid-template-columns:
         [full-start]
         minmax(4vmin, auto)
