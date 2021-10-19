@@ -484,7 +484,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
         align-items: center;
     }
     #gh-head .gh-head-actions {
-        padding: 20px 0;
+        /* padding: 20px 0; */
         justify-content: center;
         text-align: left;
     }
