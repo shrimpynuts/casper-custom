@@ -4,7 +4,8 @@ into the {body} tag of the default.hbs template }}
 {{#post}}
   {{! Everything inside the #post block pulls data from the page }}
   <article class="outer {{post_class}}">
-    <section class="gh-content">
+    {{! <section class="gh-content"> }}
+    <section class="">
       {{!-- <h1 class="article-title">{{title}}</h1> --}}
       {{content}}
     </section>
