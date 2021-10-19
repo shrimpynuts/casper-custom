@@ -22,7 +22,7 @@
 <div class="viewport">
 
     <header id="gh-head" class="gh-head {{#if @site.cover_image}}has-cover{{/if}}">
-        <nav class="gh-head-inner inner gh-container">
+        <nav class="gh-head-inner outer gh-container">
 
             <div class="gh-head-brand">
                 <a class="gh-head-logo" href="{{@site.url}}">
@@ -60,7 +60,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="default-main">
         {{!-- All other templates get inserted here, index.hbs, post.hbs, etc --}}
         {{{body}}}
     </main>

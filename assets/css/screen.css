@@ -169,11 +169,21 @@ production stylesheet in assets/built/screen.css
 /* ---------------------------------------------------------- */
 
 .gh-head {
-    padding: 1vmin 4vmin;
+    padding: 1vmin 0vmin;
     font-size: 1.6rem;
     line-height: 1.3em;
     color: black;
     background: white;
+
+    /* Constrain width */
+    width: 63.2rem;
+    margin: 0 auto;
+}
+
+.default-main {
+    /* Constrain width */
+    width: 63.2rem;
+    margin: 0 auto;
 }
 
 .gh-head a {
@@ -545,43 +555,6 @@ ul.post-archive{margin-left:0!important;line-height:2 !important;}
 
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
-
-.site-main-feeds {
-    display: flex;
-    flex-direction: row;
-}
-
-.post-feed {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 4vmin 0;
-    flex: 3;
-}
-
-.post-feed-thoughts {
-    flex: 1;
-}
-
-@media (min-width: 500px) {
-    .post-feed-featured {
-        margin-right: 20px;
-    }
-}
-
-
-@media (max-width: 1000px) {
-    .post-feed {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media (max-width: 700px) {
-    .post-feed {
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        padding: 8vmin 0;
-    }
-}
 
 .post-card {
     position: relative;
