@@ -194,6 +194,11 @@ production stylesheet in assets/built/screen.css
     color: var(--color-darkgrey)
 }
 
+.nav-current {
+    color: var(--color-darkergrey);
+    font-weight: bolder;
+}
+
 .default-main {
     /* Constrain width */
     width: 63.2rem;
