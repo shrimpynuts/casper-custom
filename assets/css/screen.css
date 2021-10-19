@@ -37,7 +37,7 @@ production stylesheet in assets/built/screen.css
     --color-yellow: #fecd35;
     --color-red: #f05230;
     --color-darkgrey: #15171A;
-    --color-midgrey: #738a94;
+    --color-midgrey: #828c96;
     --color-lightgrey: #c5d2d9;
     --color-wash: #e5eff5;
     --color-darkmode: #151719;
@@ -598,7 +598,7 @@ ul.post-archive{margin-left:0!important;line-height:2 !important;}
 }
 
 .post-card-header {
-    margin: 20px 0 0;
+    /* margin: 20px 0 0; */
 }
 
 .post-card-tags {
@@ -1443,10 +1443,12 @@ Ghost editor. */
 
 .footer-cta {
     position: relative;
-    padding: 9vmin 4vmin 10vmin;
+    padding: 3vmin 5vmin 4vmin;
     color: #fff;
     text-align: center;
     background: var(--color-darkgrey);
+    border-radius: 8px;
+    /* background: gray; */
 }
 
 /* Increases the default h2 size by 15%, for small and large screens */
@@ -1492,8 +1494,8 @@ Ghost editor. */
     width: 100%;
     padding: 4vmin;
     margin: 0 auto -40px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    background: color-mod(var(--color-darkgrey) l(-5%));
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1); */
+    /* background: color-mod(var(--color-darkgrey) l(-5%)); */
 }
 
 .read-more {
@@ -1503,16 +1505,16 @@ Ghost editor. */
 }
 
 .read-more .post-card-title {
-    color: #fff;
+    /* color: #fff; */
     opacity: 0.8;
 }
 
 .read-more .post-card-excerpt {
-    color: rgba(255, 255, 255, 0.6);
+    /* color: rgba(255, 255, 255, 0.6); */
 }
 
 .read-more .post-card-byline-content a {
-    color: #fff;
+    /* color: #fff; */
 }
 
 
