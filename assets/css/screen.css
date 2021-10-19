@@ -177,8 +177,9 @@ production stylesheet in assets/built/screen.css
     background: white;
 
     /* Constrain width */
-    width: 63.2rem;
+    max-width: 63.2rem;
     margin: 0 auto;
+    width: 100%;
 }
 
 .gh-head-top {
@@ -194,6 +195,13 @@ production stylesheet in assets/built/screen.css
     color: var(--color-darkgrey)
 }
 
+@media (max-width: 600px) {
+    .gh-head-bottom {
+        border-bottom: none;
+        padding: 0;
+    }
+}
+
 .nav-current {
     color: var(--color-darkergrey);
     font-weight: bolder;
@@ -201,7 +209,7 @@ production stylesheet in assets/built/screen.css
 
 .default-main {
     /* Constrain width */
-    width: 63.2rem;
+    max-width: 63.2rem;
     margin: 0 auto;
 }
 
@@ -221,9 +229,10 @@ production stylesheet in assets/built/screen.css
     display: flex;
     align-items: center;
     height: 40px;
-    max-width: 200px;
     text-align: center;
     word-break: break-all;
+
+    width: 100%;    
 }
 
 .gh-head-logo {
