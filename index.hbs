@@ -15,14 +15,9 @@ into the {body} of the default.hbs template --}}
                     {{/post}}
                 {{/foreach}}
             </div>
-            {{!-- <div class="post-feed post-feed-thoughts">
-                <p style="padding-bottom: 10px;">Quick thoughts. Too short for an article, too long for a tweet.</p> 
-                {{#foreach posts}}
-                    {{#has tag="thoughts"}}
-                        {{> "post-card"}}
-                    {{/has}}
-                {{/foreach}}
-            </div> --}}
+            <div class="archive-button-wrapper">
+                <a class="archive-button" href="/archive">Archive →</a>
+            </div>
         </div>
     </div>
 </main>

@@ -165,6 +165,17 @@ production stylesheet in assets/built/screen.css
 }
 
 
+.archive-button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+}
+
+.archive-button {
+    text-align: right;
+}
+
 
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
