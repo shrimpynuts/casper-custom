@@ -188,7 +188,7 @@ production stylesheet in assets/built/screen.css
     background: white;
 
     /* Constrain width */
-    max-width: 63.2rem;
+    max-width: 100rem;
     margin: 0 auto;
     width: 100%;
 }
@@ -220,7 +220,7 @@ production stylesheet in assets/built/screen.css
 
 .default-main {
     /* Constrain width */
-    max-width: 63.2rem;
+    max-width: 100rem;
     width: 100%;
     margin: 0 auto;
 }
