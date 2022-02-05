@@ -978,7 +978,7 @@ headings, text, images and lists. We deal with cards lower down. */
 
 /* Default vertical spacing */
 .gh-content > * + * {
-    margin-top: 2vmin;
+    margin-top: 1em;
     margin-bottom: 0;
 }
 
@@ -1003,11 +1003,11 @@ is the very first element in the post content */
 .gh-content > hr,
 .gh-content > blockquote {
     position: relative;
-    margin-top: 6vmin;
+    margin-top: 3vmin;
 }
 .gh-content > hr + *,
 .gh-content > blockquote + * {
-    margin-top: 6vmin !important;
+    margin-top: 3vmin !important;
 }
 
 /* Now the content typography styles */
@@ -1024,7 +1024,7 @@ is the very first element in the post content */
 .gh-content > p {
     /* font-family: var(--font-serif); */
     font-weight: 400;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     line-height: 1.6em;
 }
 
